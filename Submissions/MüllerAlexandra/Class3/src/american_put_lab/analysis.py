@@ -45,4 +45,3 @@ def first_historical_exercise(
                 payoff=float(strike - price),
             )
     return None
-

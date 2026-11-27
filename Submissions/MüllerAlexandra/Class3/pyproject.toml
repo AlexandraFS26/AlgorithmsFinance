@@ -12,4 +12,3 @@ testpaths = ["tests"]
 pythonpath = ["src"]
 addopts = "-ra"
 
-

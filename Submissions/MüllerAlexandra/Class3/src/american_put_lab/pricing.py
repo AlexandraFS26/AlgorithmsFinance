@@ -85,4 +85,3 @@ def price_american_put(
         value[:active] = np.maximum(intrinsic, continuation)
 
     return PricingResult(float(value[0]), tuple(float(x) for x in boundary))
-

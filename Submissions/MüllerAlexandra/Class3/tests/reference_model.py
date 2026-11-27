@@ -48,4 +48,3 @@ def full_tree_american_put(
             boundaries[time] = max(exercise_prices)
 
     return values[0][0], tuple(boundaries)
-

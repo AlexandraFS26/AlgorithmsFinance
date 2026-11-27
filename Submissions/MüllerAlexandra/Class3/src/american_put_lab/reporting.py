@@ -115,4 +115,3 @@ def write_boundary_table(
                     "" if math.isnan(boundary) else f"{boundary:.10f}",
                 )
             )
-

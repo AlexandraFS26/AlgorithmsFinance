@@ -41,4 +41,3 @@ def test_loader_rejects_wrong_schema(tmp_path: Path) -> None:
     path.write_text("time,price\n2026-01-01,100\n", encoding="utf-8")
     with pytest.raises(ValueError, match="header"):
         load_hourly_prices(path)
-

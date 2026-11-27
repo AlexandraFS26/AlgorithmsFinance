@@ -59,4 +59,3 @@ def test_calibration_rejects_zero_volatility_that_cannot_define_probability() ->
             (100.0, 100.0, 100.0),
             (start, start + timedelta(hours=1), start + timedelta(hours=2)),
         )
-

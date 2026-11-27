@@ -41,4 +41,3 @@ def test_historical_inputs_must_have_equal_lengths() -> None:
     start = datetime(2026, 1, 1, tzinfo=timezone.utc)
     with pytest.raises(ValueError):
         first_historical_exercise((100.0,), (start,), (math.nan, 90.0), 100.0)
-

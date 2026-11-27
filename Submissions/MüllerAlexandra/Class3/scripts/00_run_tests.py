@@ -9,4 +9,3 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 raise SystemExit(subprocess.call([sys.executable, "-m", "pytest"], cwd=ROOT))
-

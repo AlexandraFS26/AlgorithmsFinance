@@ -64,4 +64,3 @@ def calibrate_tree(
         raise ValueError("calibration violates down <= gross_rate <= up")
 
     return Calibration(periods, sample_std, up, down, elapsed_years, gross_rate)
-

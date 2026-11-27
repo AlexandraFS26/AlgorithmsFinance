@@ -52,4 +52,3 @@ at or below the computed boundary is `2026-06-02T14:00:00+00:00`, at a close of
 
 See `docs/03_algorithm_and_results.md` before interpreting the timings or memory
 figures.
-

@@ -15,4 +15,3 @@ __all__ = [
     "load_hourly_prices",
     "price_american_put",
 ]
-

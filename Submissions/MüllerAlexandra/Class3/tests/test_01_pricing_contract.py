@@ -71,4 +71,3 @@ def test_invalid_tree_parameters_are_rejected(kwargs: dict[str, object]) -> None
     arguments.update(kwargs)
     with pytest.raises((TypeError, ValueError)):
         price_american_put(**arguments)
-

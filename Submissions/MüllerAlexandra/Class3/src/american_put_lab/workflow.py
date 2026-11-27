@@ -144,4 +144,3 @@ def run_experiment(
         peak_bytes=peak_bytes,
         assets=assets,
     )
-

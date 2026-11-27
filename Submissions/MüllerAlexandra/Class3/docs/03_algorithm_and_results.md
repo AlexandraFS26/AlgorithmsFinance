@@ -90,4 +90,3 @@ Increasing `N` by approximately five multiplies the 40-asset time by about
 overheads. Peak traced memory rises by less than a factor of two and does not
 scale with the number of assets, which is consistent with sequential processing
 and linear rolling-array storage.
-
